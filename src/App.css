@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+.comments .input {
+  display: flex;
+}
+.comments .input input {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  width: 100%;
+  padding-bottom: 5px;
+  color: #aaa;
+  font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.comments .comments-place {
+  margin-top: 48px;
+}
+.comments .comments-place .comment {
+  display: flex;
+  gap: 16px;
+}
+.comments .comments-place .comment .logo {
+  width: 40px;
+  background-color: #797979;
+  border-radius: 50%;
+  height: 40px;
+}
+.comments .comments-place .comment .comment-use .text {
+  margin-top: 5px;
+  color: #f1f1f1;
+  font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.comments .comments-place .comment .comment-use .buttons {
+  margin-top: 8px;
+  display: flex;
+  gap: 11px;
+}
+.comments .comments-place .comment .comment-use .buttons button {
+  border: none;
+  background: none;
+  color: #f1f1f1;
+}
+.comments .comments-place .comment .comment-use .buttons .like {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  color: #aaa;
+  font-size: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+.comments .comments-place .comment .comment-use .buttons .like .image {
+  width: 24px;
+  height: 24px;
+  background-image: url(./assets/like.svg);
+}
+.comments .comments-place .comment .comment-use .buttons .diz .image {
+  width: 24px;
+  height: 24px;
+  background-image: url(./assets/diz.svg);
+}
+.comments .comments-place .comment .comment-use .buttons .answer {
+  color: #f1f1f1;
+  font-size: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.comments .comments-place .comment .comment-use .title {
+  display: flex;
+  gap: 20px;
+}
+.comments .comments-place .comment .comment-use .title .name {
+  color: #f1f1f1;
+  font-size: 13px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+.comments .comments-place .comment .comment-use .title .ago {
+  color: #aaa;
+  font-size: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}/*# sourceMappingURL=App.css.map */
